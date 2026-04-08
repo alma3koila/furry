@@ -122,6 +122,9 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        LinkedList<BankAccount> accounts = new LinkedList<>();
+        Stack<String> history = new Stack<>();
+        Queue<String> billQueue = new LinkedList<>();
 
         while (true) {
 
