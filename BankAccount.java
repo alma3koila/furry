@@ -1,7 +1,6 @@
 package com.example.ads;
 
 public class BankAccount {
-
     int accountNumber;
     String username;
     double balance;
@@ -25,6 +24,6 @@ public class BankAccount {
     }
 
     public void display() {
-        System.out.println(accountNumber + " - " + username + " - Balance: " + balance);
+        System.out.println(accountNumber + " | " + username + " | " + balance);
     }
 }
